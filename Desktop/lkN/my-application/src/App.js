@@ -15,6 +15,7 @@ const Navigation = () => {
     <nav>
       <ul>
         <li><Link to="/homepage">Home</Link></li>
+        <li><Link to="/LoginPage">Login</Link></li>
         <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/grade-report">Grade Report</Link></li>
         <li><Link to="/missing-grade-form">Missing Grade Form</Link></li>
@@ -33,6 +34,7 @@ const App = () => {
         <hr />
         <Routes>
           <Route path="/homepage" element={<HomePage />} />
+          <Route path="/LoginPage" element={<LoginPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/grade-report" element={<GradeReportPage />} />
           <Route path="/missing-grade-form" element={<MissingGradeFormPage />} />
